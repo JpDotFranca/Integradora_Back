@@ -8,7 +8,7 @@ namespace Trabalho_Integradora.Controllers
     [ApiController]
     public class AutenticacaoController : ControllerBase
     {
-
+        [HttpGet]
         public ActionResult<string> Autenticar(string login, string senha)
         {
 
